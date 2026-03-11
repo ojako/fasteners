@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(10 0)">
+    <circle cx="30" cy="30" r="26" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="2" opacity="0.4" />
+    <polygon points="30,6 52,18 52,42 30,54 8,42 8,18" stroke="currentColor" stroke-width="2.5" />
+    <circle cx="30" cy="30" r="7" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1.5" opacity="0.5" />
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(10 0)">
+    <path d="M2 6 H58 V14 H2 Z" stroke="currentColor" stroke-width="2.5" />
+    <path d="M12 14 L10 24" stroke="currentColor" stroke-width="2.5" />
+    <path d="M22 14 L20 24" stroke="currentColor" stroke-width="2.5" />
+    <path d="M38 14 L40 24" stroke="currentColor" stroke-width="2.5" />
+    <path d="M48 14 L50 24" stroke="currentColor" stroke-width="2.5" />
+    <path d="M24 14 V54 H36 V14" stroke="currentColor" stroke-width="2.5" />
+    <path d="M24 24 L36 22 M24 34 L36 32 M24 44 L36 42" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1" opacity="0.4" />
+  </g>
+</svg>

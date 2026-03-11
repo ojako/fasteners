@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 31 L34 10 H46 L56 31 Z" stroke="currentColor" stroke-width="2.5" />
+    <ellipse cx="40" cy="11.5" rx="6" ry="3" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="2" opacity="0.5" />
+    <path d="M31 26 L36.5 14 M49 26 L43.5 14" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1" opacity="0.3" />
+  </svg>

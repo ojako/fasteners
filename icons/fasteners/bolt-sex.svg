@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(10 0)">
+    <path d="M6 5 H34 V12 H6 Z" stroke="currentColor" stroke-width="2.5" />
+    <path d="M14 12 V50 H26 V12" stroke="currentColor" stroke-width="2.5" />
+    <path d="M6 92 H34 V85 H6 Z" stroke="currentColor" stroke-width="2.5" />
+    <path d="M17 85 V54 H23 V85" stroke="currentColor" stroke-width="2.5" />
+    <line x1="12" y1="52" x2="28" y2="52" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1" opacity="0.3" stroke-dasharray="3 2" />
+    <path d="M17 64 L23 62 M17 74 L23 72" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1" opacity="0.4" />
+  </g>
+</svg>

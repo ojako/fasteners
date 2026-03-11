@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(10 0)">
+    <path d="M6 5 H34 L37 12 L34 19 H6 L3 12 Z" stroke="currentColor" stroke-width="2.5" />
+    <path d="M15 19 L17 80 L20 94 L23 80 L25 19" stroke="currentColor" stroke-width="2.5" />
+    <path d="M14 34 L26 29 M15 48 L25 43 M16 62 L24 57 M17 74 L23 70" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1.5" opacity="0.5" />
+  </g>
+</svg>

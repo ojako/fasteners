@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 14 Q20 6 30 6 Q40 6 40 14 Z" stroke="currentColor" stroke-width="2.5" />
+    <circle cx="23" cy="18" r="2.5" fill="var(--fastener-icon-inset, currentColor)" opacity="0.4" />
+    <circle cx="37" cy="18" r="2.5" fill="var(--fastener-icon-inset, currentColor)" opacity="0.4" />
+    <path d="M25 18 V82 L30 94 L35 82 V18" stroke="currentColor" stroke-width="2.5" />
+    <path d="M25 32 L35 29 M25 44 L35 41 M25 56 L35 53 M25 68 L35 65 M25 78 L35 75" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1" opacity="0.4" />
+  </svg>

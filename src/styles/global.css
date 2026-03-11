@@ -23,6 +23,10 @@
   --color-svg-inset: oklch(0.25 0.03 250);
 }
 
+:root {
+  --fastener-icon-inset: var(--color-svg-inset);
+}
+
 html {
   font-size: 21px;
   scroll-behavior: smooth;

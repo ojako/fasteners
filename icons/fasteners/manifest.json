@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "icons": [
+    {
+      "shapeKey": "anchor-chemical",
+      "category": "anchors",
+      "file": "anchor-chemical.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-dropin",
+      "category": "anchors",
+      "file": "anchor-dropin.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-hammer",
+      "category": "anchors",
+      "file": "anchor-hammer.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-insert",
+      "category": "anchors",
+      "file": "anchor-insert.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-molly",
+      "category": "anchors",
+      "file": "anchor-molly.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-plastic",
+      "category": "anchors",
+      "file": "anchor-plastic.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-screw",
+      "category": "anchors",
+      "file": "anchor-screw.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-selfdrill",
+      "category": "anchors",
+      "file": "anchor-selfdrill.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-sleeve",
+      "category": "anchors",
+      "file": "anchor-sleeve.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-tnut",
+      "category": "anchors",
+      "file": "anchor-tnut.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-toggle",
+      "category": "anchors",
+      "file": "anchor-toggle.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "anchor-wedge",
+      "category": "anchors",
+      "file": "anchor-wedge.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-carriage",
+      "category": "bolts",
+      "file": "bolt-carriage.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-eye",
+      "category": "bolts",
+      "file": "bolt-eye.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-flange",
+      "category": "bolts",
+      "file": "bolt-flange.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-hanger",
+      "category": "bolts",
+      "sameAs": "screw-hanger",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-hex",
+      "category": "bolts",
+      "file": "bolt-hex.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-j",
+      "category": "bolts",
+      "file": "bolt-j.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-l",
+      "category": "bolts",
+      "file": "bolt-l.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-lag",
+      "category": "bolts",
+      "file": "bolt-lag.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-sex",
+      "category": "bolts",
+      "file": "bolt-sex.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-shoulder",
+      "category": "bolts",
+      "file": "bolt-shoulder.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-stud",
+      "category": "bolts",
+      "file": "bolt-stud.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-t",
+      "category": "bolts",
+      "file": "bolt-t.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-toggle",
+      "category": "bolts",
+      "file": "bolt-toggle.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "bolt-u",
+      "category": "bolts",
+      "file": "bolt-u.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "nut-acorn",
+      "category": "nuts",
+      "file": "nut-acorn.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-barrel",
+      "category": "nuts",
+      "file": "nut-barrel.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-cage",
+      "category": "nuts",
+      "file": "nut-cage.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-castle",
+      "category": "nuts",
+      "file": "nut-castle.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-coupling",
+      "category": "nuts",
+      "file": "nut-coupling.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-flange",
+      "category": "nuts",
+      "file": "nut-flange.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-hex",
+      "category": "nuts",
+      "file": "nut-hex.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-knurled",
+      "category": "nuts",
+      "file": "nut-knurled.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-lock",
+      "category": "nuts",
+      "file": "nut-lock.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-rivet",
+      "category": "nuts",
+      "file": "nut-rivet.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-square",
+      "category": "nuts",
+      "file": "nut-square.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-t",
+      "category": "nuts",
+      "file": "nut-t.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-weld",
+      "category": "nuts",
+      "file": "nut-weld.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "nut-wing",
+      "category": "nuts",
+      "file": "nut-wing.svg",
+      "viewBox": "0 0 80 60",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "screw-button",
+      "category": "screws",
+      "file": "screw-button.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-confirmat",
+      "category": "screws",
+      "file": "screw-confirmat.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-drive",
+      "category": "screws",
+      "file": "screw-drive.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-flat",
+      "category": "screws",
+      "file": "screw-flat.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-hanger",
+      "category": "screws",
+      "file": "screw-hanger.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-hex-washer",
+      "category": "screws",
+      "file": "screw-hex-washer.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-pan",
+      "category": "screws",
+      "file": "screw-pan.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-security",
+      "category": "screws",
+      "file": "screw-security.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-set",
+      "category": "screws",
+      "file": "screw-set.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-socket",
+      "category": "screws",
+      "file": "screw-socket.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-thumb",
+      "category": "screws",
+      "file": "screw-thumb.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "screw-weld",
+      "category": "screws",
+      "file": "screw-weld.svg",
+      "viewBox": "0 0 60 100",
+      "orientation": "portrait"
+    },
+    {
+      "shapeKey": "washer-belleville",
+      "category": "washers",
+      "file": "washer-belleville.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "washer-finishing",
+      "category": "washers",
+      "file": "washer-finishing.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "washer-flat",
+      "category": "washers",
+      "file": "washer-flat.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "washer-sealing",
+      "category": "washers",
+      "file": "washer-sealing.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "washer-shoulder",
+      "category": "washers",
+      "file": "washer-shoulder.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "washer-split",
+      "category": "washers",
+      "file": "washer-split.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "washer-star",
+      "category": "washers",
+      "file": "washer-star.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    },
+    {
+      "shapeKey": "washer-wave",
+      "category": "washers",
+      "file": "washer-wave.svg",
+      "viewBox": "0 0 80 40",
+      "orientation": "landscape"
+    }
+  ]
+}

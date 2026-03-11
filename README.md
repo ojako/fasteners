@@ -36,6 +36,10 @@ npm run preview      # Preview production build
 └── nuts/            # Hex nuts, lock nuts, wing nuts
 ```
 
+## Icons
+
+Framework-neutral fastener SVG assets live in `icons/fasteners/`. Import notes are in [docs/ICON_IMPORTS.md](docs/ICON_IMPORTS.md).
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.

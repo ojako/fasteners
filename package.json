@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check:icons": "node scripts/validate-fastener-icons.mjs"
   },
   "dependencies": {
     "@astrojs/netlify": "^6.5.9",
