@@ -1,17 +1,22 @@
 # Fastener Icon Illustration Brief
 
-Commission ~44 monochrome silhouette illustrations for fasteners.fyi.
-Each illustration represents a distinct fastener shape (many individual fastener types share the same silhouette).
+Maintain a scalable SVG icon library for 60 shape keys across the fasteners.fyi catalog.
+The library currently resolves to 59 canonical drawings plus one exact alias (`bolt-hanger` -> `screw-hanger`).
+
+This document is a production spec, not just art direction. The SVGs should render consistently in fixed bounding frames, scale cleanly, and preserve their category proportions.
 
 ## Deliverables
 
 - **Format:** SVG, single `<svg>` element per shape
-- **Color:** Monochrome. Stroke in `currentColor`, inner detail fill in a single muted accent color (will be mapped to CSS variable)
+- **Color:** Primary geometry in `currentColor`, secondary detail in `var(--fastener-icon-inset, currentColor)`
 - **Style:** Clean technical silhouette. Not photorealistic, not cartoonish. Think McMaster-Carr catalog line drawings.
 - **Orientation:** Profile/side view. Fastener pointing down (threaded end at bottom) for screws/bolts. Top-down for washers. Side profile for nuts.
 - **Thread indication:** Simplified. 3-4 angled lines suggesting thread pitch, not exact thread count.
 - **Stroke weight:** Uniform 1.5-2px at reference size
 - **ViewBox:** Standardized per category (see below)
+- **Root SVG contract:** `xmlns`, `viewBox`, `fill="none"`, `stroke="currentColor"`, `stroke-linecap="round"`, `stroke-linejoin="round"`, `preserveAspectRatio="xMidYMid meet"`
+- **No root sizing:** Do not set root `width` or `height`
+- **No framework attrs:** No root `class`, `style`, `role`, `aria-*`, or app-specific attributes inside the raw asset
 - **No text, no labels, no dimensions** inside the SVG
 
 ### ViewBox Sizes
@@ -23,6 +28,33 @@ Each illustration represents a distinct fastener shape (many individual fastener
 | Nuts | `0 0 80 60` | Landscape (wide) |
 | Washers | `0 0 80 40` | Landscape (wide) |
 | Anchors | `0 0 60 100` | Portrait (tall) |
+
+### Usable Art Area
+
+Use the category viewBox as the canvas and keep the visible silhouette inside the following art boxes:
+
+| Category | Art box | Alignment rule |
+|----------|---------|----------------|
+| Screws | `x=10..50`, `y=6..94` | Centered on `x=30`; head and tip align optically near top/bottom landmarks |
+| Bolts | `x=10..50`, `y=6..94` | Centered on `x=30`; no blanket translation padding |
+| Anchors | `x=10..50`, `y=6..94` | Centered on `x=30`; expansion details stay inside the portrait frame |
+| Nuts | `x=8..72`, `y=4..56` | Centered on `x=40`; outer silhouette fills the wide frame evenly |
+| Washers | `x=10..70`, `y=4..36` | Centered on `x=40`; outer ring fills the frame without clipping |
+
+Narrow parts such as studs, eye bolts, and J/L bolts should stay optically centered rather than being artificially widened to hit the side walls.
+
+### Render Contract
+
+- Size icons with a fixed **bounding frame** per display context, not with width-only or height-only wrappers
+- Recommended shared frames for the current app:
+  - list cards: `96 x 48`
+  - home/category cards: `112 x 56`
+  - detail rows: `160 x 80`
+  - QA/gallery: `160 x 80`
+- The consuming component should center the SVG inside that frame and render it with `display: block; width: 100%; height: 100%`
+- The raw SVG must preserve its own aspect ratio via `preserveAspectRatio="xMidYMid meet"`
+- Do not switch portrait categories to landscape framing, or vice versa, just to make cards look fuller
+- Do not use a top-level translate wrapper as a substitute for centering; canonical geometry should be authored directly in the declared viewBox
 
 ---
 
@@ -433,7 +465,7 @@ Each entry includes:
 
 ## Notes for the Illustrator
 
-1. **Consistency matters more than detail.** All 44 shapes should feel like they belong to the same family: same stroke weight, same level of simplification, same viewing angle within each category.
+1. **Consistency matters more than detail.** All 60 shape keys should feel like they belong to the same family: same stroke weight, same level of simplification, same viewing angle within each category, and consistent occupancy inside the art box.
 
 2. **McMaster-Carr pages** show technical line drawings alongside product listings. These are the gold standard for shape accuracy. You may need to create a free account to view full catalog imagery.
 
@@ -441,7 +473,7 @@ Each entry includes:
 
 4. **Thread simplification:** Use 3-4 angled parallel lines to suggest threading. Don't draw individual threads.
 
-5. **Shared shapes:** Some shape keys appear in multiple categories (e.g., bolt-hanger and screw-hanger are the same object; anchor-tnut and nut-t are the same object). Only one illustration is needed per unique shape; the code handles the mapping.
+5. **Shared shapes:** Only exact pose-and-canvas duplicates should share a canonical drawing. `bolt-hanger` can reuse `screw-hanger`; similar real-world objects in different categories may still need different drawings if their orientation or canvas differs.
 
 6. **Priority order:** If doing this in batches, start with the most common shapes:
    - **Batch 1 (highest traffic):** screw-flat, screw-pan, bolt-hex, bolt-carriage, nut-hex, nut-lock, washer-flat, washer-split, anchor-wedge, anchor-plastic

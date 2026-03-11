@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet">
+    <path d="M22 31 Q30 8 40 8 Q50 8 58 31" stroke="currentColor" stroke-width="2.5" />
+    <path d="M27 31 Q32 16 40 16 Q48 16 53 31" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="2" opacity="0.4" />
+    <line x1="22" y1="31" x2="58" y2="31" stroke="currentColor" stroke-width="2.5" />
+  </svg>

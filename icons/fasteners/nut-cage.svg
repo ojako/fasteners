@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet">
+  <rect x="14" y="4" width="52" height="52" rx="4" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="2" opacity="0.4" />
+  <path d="M 14 14 Q 11 4 20 4 M 66 14 Q 69 4 60 4 M 14 46 Q 11 56 20 56 M 66 46 Q 69 56 60 56" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1.5" opacity="0.3" />
+  <rect x="26" y="16" width="28" height="28" stroke="currentColor" stroke-width="2.5" />
+  <circle cx="40" cy="30" r="6" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1.5" opacity="0.5" />
+</svg>

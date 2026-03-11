@@ -14,7 +14,7 @@ import { washers } from '../utils/data';
     <div class="grid gap-4">
       {washers.map((washer) => (
         <a href={`/washers/${washer.slug}`} class="flex gap-4 items-start rounded-lg border border-bp-700 bg-bp-900/60 p-6 hover:border-accent-500 hover:bg-bp-900 transition-colors">
-          <FastenerIcon slug={washer.slug} category="washers" class="w-12 shrink-0 text-bp-text-faint" />
+          <FastenerIcon slug={washer.slug} category="washers" frame="list" class="shrink-0 text-bp-text-faint" />
           <div>
             <h2 class="text-xl font-semibold mb-2">{washer.name}</h2>
             <p class="text-bp-text-muted mb-4">{washer.description}</p>

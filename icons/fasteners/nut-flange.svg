@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet">
+  <circle cx="40" cy="30" r="26" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="2" opacity="0.4" />
+  <polygon points="40,6 62,18 62,42 40,54 18,42 18,18" stroke="currentColor" stroke-width="2.5" />
+  <circle cx="40" cy="30" r="7" stroke="var(--fastener-icon-inset, currentColor)" stroke-width="1.5" opacity="0.5" />
+</svg>

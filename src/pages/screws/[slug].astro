@@ -97,7 +97,7 @@ function formatHeadStyle(head: string | undefined): string {
       <!-- Main Content -->
       <div class="lg:col-span-2 space-y-8">
         <div class="flex items-start gap-6">
-          <FastenerIcon slug={screw.slug} category="screws" class="w-20 shrink-0 text-bp-text-muted" />
+          <FastenerIcon slug={screw.slug} category="screws" frame="detail" class="shrink-0 text-bp-text-muted" />
           <div>
             <h1 class="text-4xl font-bold mb-4">{screw.name}</h1>
             {screw.aliases && screw.aliases.length > 0 && (

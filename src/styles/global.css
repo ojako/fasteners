@@ -20,7 +20,11 @@
   --color-bp-text-faint: oklch(0.50 0.03 250);
 
   /* SVG inset */
-  --color-svg-inset: oklch(0.25 0.03 250);
+  --color-svg-inset: var(--color-accent-400);
+}
+
+:root {
+  --fastener-icon-inset: var(--color-svg-inset);
 }
 
 html {

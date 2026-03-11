@@ -14,7 +14,7 @@ import { bolts } from '../utils/data';
     <div class="grid gap-4">
       {bolts.map((bolt) => (
         <a href={`/bolts/${bolt.slug}`} class="flex gap-4 items-start rounded-lg border border-bp-700 bg-bp-900/60 p-6 hover:border-accent-500 hover:bg-bp-900 transition-colors">
-          <FastenerIcon slug={bolt.slug} category="bolts" class="w-12 shrink-0 text-bp-text-faint" />
+          <FastenerIcon slug={bolt.slug} category="bolts" frame="list" class="shrink-0 text-bp-text-faint" />
           <div>
             <h2 class="text-xl font-semibold mb-2">{bolt.name}</h2>
             <p class="text-bp-text-muted mb-4">{bolt.description}</p>

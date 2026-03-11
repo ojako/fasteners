@@ -14,7 +14,7 @@ import { nuts } from '../utils/data';
     <div class="grid gap-4">
       {nuts.map((nut) => (
         <a href={`/nuts/${nut.slug}`} class="flex gap-4 items-start rounded-lg border border-bp-700 bg-bp-900/60 p-6 hover:border-accent-500 hover:bg-bp-900 transition-colors">
-          <FastenerIcon slug={nut.slug} category="nuts" class="w-12 shrink-0 text-bp-text-faint" />
+          <FastenerIcon slug={nut.slug} category="nuts" frame="list" class="shrink-0 text-bp-text-faint" />
           <div>
             <h2 class="text-xl font-semibold mb-2">{nut.name}</h2>
             <p class="text-bp-text-muted mb-4">{nut.description}</p>
